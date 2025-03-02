@@ -44,7 +44,7 @@ sudo sysadminctl -addUser yabadabadoo -password pujo && dseditgroup -o edit -a y
 ```
 12. Membuat direktori dan yang bisa mengakses hanya root dan yabadabadoo
 ```bash
-sudo install -d -m 770 -o kiwa -g wheel fufufafa
+sudo install -d -m 770 -o yabadabadoo -g wheel fufufafa
 ```
 13. Solve puzle dan memasukkan ke folder fufufafa
 ```bash
