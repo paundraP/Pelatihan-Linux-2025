@@ -28,7 +28,7 @@ chmod +x plsrunmeiamnotmalwarefr
 ```
 8. Menjalankan binary
 ```bash
-./plsrunmeiamnotmalwarefr
+./plsrunmeiamnotmalwarefr && ps aux
 ```
 9. Membuat file untuk menghentikan binary yang sudah dijalankan
 ```bash
@@ -36,7 +36,7 @@ touch ransom.moolah
 ```
 10. Mematikan binary
 ```bash
-Ctrl+C
+Kill <PID>
 ```
 11. Membuat sebuah user dan memasukkannya kedalam sudoers group
 ```bash
